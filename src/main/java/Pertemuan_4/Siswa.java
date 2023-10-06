@@ -24,7 +24,21 @@ public class Siswa {
         this.nama=Nama;
         this.umur=Umur;
     }
-    
+    public void belajar()
+    {
+        System.out.println("Saya belajar");
+    }
+    /*
+    getter and setter
+    */
+    public void getNama()
+    {
+        System.out.println("Nama Siswa ini adalah "+nama);
+    }
+    public void setNama(String Nama)
+    {
+        this.nama=Nama;
+    }
     public static void main(String[] args)
     {
         Siswa siswa=new Siswa();
