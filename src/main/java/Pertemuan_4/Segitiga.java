@@ -12,7 +12,6 @@ public class Segitiga {
     private int alas;
     private int tinggi;
     private double luas;
-    
     public void setAlas(int a){
         if (a > 0){
             this.alas = a;
@@ -20,7 +19,6 @@ public class Segitiga {
             this.alas = 0;
         }
     }
-    
     public void setTinggi(int t){
         if (t > 0){
             this.tinggi = t;
@@ -28,16 +26,13 @@ public class Segitiga {
             this.tinggi = 0;
         }
     }
-    
     public double getLuas(){
         // hitung luasnya
         this.luas = (this.alas * this.tinggi)/2;
         System.out.println("Luas Segitiga= "+ this.luas);
         return 1;
     }
-    
-    public static void main(String args[])
-    {
+    public static void main(String args[]){
         Segitiga segitiga=new Segitiga();
         segitiga.alas=10;
         segitiga.tinggi=20;
