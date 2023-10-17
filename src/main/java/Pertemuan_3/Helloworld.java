@@ -14,5 +14,6 @@ public class Helloworld {
         double myDouble=9.7d;
         int myInt= (int) myDouble;
         System.out.println(myInt);
+        System.out.println("Hello Test");
     }
 }
